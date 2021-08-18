@@ -1,0 +1,8 @@
+{
+  "name": "yarn3test",
+  "version": "1.0.0",
+  "workspaces": [
+    "p/*"
+  ],
+  "packageManager": "yarn@3.0.1"
+}
