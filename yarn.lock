@@ -30,13 +30,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/stylis@npm:^4.0.1":
+  version: 4.0.1
+  resolution: "@types/stylis@npm:4.0.1"
+  checksum: 5979e6442a9853320e9b4b4b2da950732902bd0c0f1c1ecd47bcf87aeada5cb2696e3e7a65085571927bdf5009fb33476d53d6edd68d405489e1ac2f01d85043
+  languageName: node
+  linkType: hard
+
+"@x/app2@workspace:p/app2":
+  version: 0.0.0-use.local
+  resolution: "@x/app2@workspace:p/app2"
+  dependencies:
+    stylis: 3.5.4
+  languageName: unknown
+  linkType: soft
+
 "@x/app@workspace:p/app":
   version: 0.0.0-use.local
   resolution: "@x/app@workspace:p/app"
   dependencies:
     "@types/react": ^17.0.0
+    "@types/stylis": ^4.0.1
     "@x/ui": "workspace:*"
     react: ^17.0.0
+    stylis: ^4.0.10
     typescript: ^4.3.5
   languageName: unknown
   linkType: soft
@@ -47,6 +64,7 @@ __metadata:
   dependencies:
     "@types/react": ^17.0.0
     react: ^17.0.0
+    stylis: 3.5.4
     typescript: ^4.3.5
   peerDependencies:
     react: ^17.0.0
@@ -92,6 +110,20 @@ __metadata:
     loose-envify: ^1.1.0
     object-assign: ^4.1.1
   checksum: b254cc17ce3011788330f7bbf383ab653c6848902d7936a87b09d835d091e3f295f7e9dd1597c6daac5dc80f90e778c8230218ba8ad599f74adcc11e33b9d61b
+  languageName: node
+  linkType: hard
+
+"stylis@npm:3.5.4":
+  version: 3.5.4
+  resolution: "stylis@npm:3.5.4"
+  checksum: 3673a748ad236219bd77ca9c0a8730b8726812e612cbc844aa6f029f13666a10cf2825a5f8d41f05e8af02b5987d31b7d3ebe995e4b42e0255366fec23489b77
+  languageName: node
+  linkType: hard
+
+"stylis@npm:^4.0.10":
+  version: 4.0.10
+  resolution: "stylis@npm:4.0.10"
+  checksum: 0fecaf5c234ec3ffcb0afc21478742a815a21cb964365259789be9c1692e72e13d8c081c1150fd76ed2146633a3251cdecd6e0c120b158f44bd74c38f81cafb3
   languageName: node
   linkType: hard
 

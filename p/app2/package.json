@@ -1,0 +1,9 @@
+{
+  "name": "@x/app2",
+  "version": "1.0.0",
+  "scripts": {
+  },
+  "dependencies": {
+    "stylis": "3.5.4"
+  }
+}
