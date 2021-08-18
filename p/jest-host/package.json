@@ -1,14 +1,15 @@
 {
-  "name": "@x/ui",
+  "name": "@x/jest-host",
   "version": "1.0.0",
-  "main": "dist/index.js",
   "scripts": {
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "stylis": "3.5.4"
+    "jest": "^27.0.6"
   },
   "devDependencies": {
+    "@jest/globals": "^27.0.6",
+    "@types/jest": "^27.0.1",
     "typescript": "^4.3.5"
   }
 }

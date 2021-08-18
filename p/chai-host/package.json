@@ -1,14 +1,17 @@
 {
-  "name": "@x/app",
+  "name": "@x/chai-host",
   "version": "1.0.0",
+  "main": "dist/index.js",
   "scripts": {
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "stylis": "^4.0.10"
+    "chai": "3.5.0",
+    "mocha": "7.0.1"
   },
   "devDependencies": {
-    "@types/stylis": "^4.0.1",
+    "@types/chai": "3.5.2",
+    "@types/mocha": "7.0.2",
     "typescript": "^4.3.5"
   }
 }
