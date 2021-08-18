@@ -12,7 +12,7 @@ yarn workspace @x/jest-host type-check
 Simulate Success (with `nmHoistingLimits: workspaces`):
 
 ```
-node repro.js error
+node repro.js success
 yarn
 yarn workspace @x/chai-host type-check
 yarn workspace @x/jest-host type-check
