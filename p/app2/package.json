@@ -2,8 +2,12 @@
   "name": "@x/app2",
   "version": "1.0.0",
   "scripts": {
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "stylis": "3.5.4"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5"
   }
 }
