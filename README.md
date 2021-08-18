@@ -11,7 +11,7 @@ yarn workspace @x/app type-check
 Simulate Success (with `nmHoistingLimits: workspaces`):
 
 ```
-node repro.js error
+node repro.js success
 yarn
 yarn workspace @x/app type-check
 ```
