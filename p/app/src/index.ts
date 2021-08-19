@@ -1,3 +1,3 @@
 import { RULESET } from "stylis";
 
-console.log('RULESET: ', RULESET)
+console.log("RULESET: ", RULESET);
